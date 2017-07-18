@@ -1,0 +1,12 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": false,
+    "codeFrame": false
+  },
+  "rules": {
+    "arrow-parens": 0,
+    "generator-star-spacing": 0
+  }
+}
