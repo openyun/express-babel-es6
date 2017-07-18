@@ -1,12 +1,27 @@
 {
   "name": "express-babel-es6",
   "version": "1.0.0",
+  "description": "",
   "private": true,
   "scripts": {
     "start": "node ./dist/bin",
     "dev": "nodemon ./src/bin --exec babel-node",
     "build": "babel ./src -d dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openyun/express-babel-es6.git"
+  },
+  "keywords": [
+    "mobile",
+    "location"
+  ],
+  "author": "Richie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/openyun/express-babel-es6/issues"
+  },
+  "homepage": "https://github.com/openyun/express-babel-es6/#readme",
   "dependencies": {
     "body-parser": "~1.17.1",
     "cookie-parser": "~1.4.3",
